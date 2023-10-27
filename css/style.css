@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+  
+}
+
+/* navbar section */
+.navbar{
+    display: flex;
+    position: absolute;
+    align-items: center;    
+    top: 0px;
+    left: 0px;
+    width: 100%
+    ;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.navbar h2{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.navbar ul{
+   
+    display: flex;
+    
+    margin-right: 20px;
+    margin-top: 10px;
+}
+ 
+
+.navbar ul li{
+  
+    list-style: none;
+    margin: 10px 30px;
+}
+.navbar ul li a{
+  
+    color: whitesmoke;
+    font-size: 3vmin;
+}
+.navbar ul li a:hover{
+  color: #fc036b;
+    
+}
+.navbar button{
+    
+    border:none;
+    font-size: 17px;
+}
+.navbar button{
+    
+    border:none;
+    font-size: 17px;
+}
+.navbar button:hover{
+    
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    color: #84063a;
+    
+}
+/* header section is here */
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/images/AdventureWebstieImages/img/header-bg.png');
+    background-position:bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    ;
+}
+.header-contents {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 150px;
+   
+    
+}
+.header-contents h2{
+   
+    font-size: 4vmin;
+}
+.header-contents h1{
+    
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.line{
+    height: 4px;
+    border-radius: 15px;
+    width: 150px;
+    background-color: #fc036b;
+    margin: 10px auto;
+}
+a{
+    text-decoration: none;
+}
+.btn
+{
+    
+    padding: 10px 15px;
+    background-color: #fc036b;
+    border-radius: 15px;
+    color: whitesmoke;
+
+}
+.header-contents a:hover{
+    
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    color: #84063a;
+    
+}
+/* upcoming events section  */
+
+.Upcoming-events-section{
+    height: 80%;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    margin-top: 20px;
+    color: rgb(62, 62, 120);
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.row .column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}  
+
+.row h4{
+    font-size: 4vmin;
+    color: rgb(62, 62, 120);
+    margin: 30px auto;
+} 
+.row p{
+   
+    color: rgb(62, 62, 63);
+    padding: 20px 50px;
+    
+} 
+.column .btn{
+   
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.column .btn:hover{
+    
+    padding: 10px 15px;
+    background-color: rgb(187, 176, 176);
+    border-radius: 10px;
+    color: #84063a;
+   
+}
+/* }explore section  */
+#explore-section{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/AdventureWebstieImages/img/bg2.png');
+    background-position: bottom ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.explore-contents{
+    
+    text-align: center;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore-contents h1{
+    color: whitesmoke;
+    font-size: 5vmin;
+}
+.explore-contents .line{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.explore-contents p{
+    color: rgb(113, 107, 107);
+    
+}
+.explore-contents .btn{
+    margin-top: 20px;
+    
+}
+.explore-contents .btn:hover{
+    
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    color: #84063a;
+    
+}
+#Upcoming-section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Upcoming-text {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    
+}
+.Upcoming-text h1{
+    color: rgb(62, 62, 120);
+    font-size: 7vmin;
+    /* margin-bottom: 30px; */
+}
+.Upcoming-text .line{
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+.Upcoming-text p{
+    color: rgb(99, 99, 102);
+    margin-bottom: 30px;
+}
+.Upcoming-text .btn{
+   
+   margin-right: 50px;
+}
+.Upcoming-text  .btn:hover{
+    
+    padding: 10px 15px;
+    background-color: rgb(187, 176, 176);
+    border-radius: 10px;
+    color: #84063a;
+    
+}
+.Upcoming-images-box{
+    margin-right: 120px;
+}
+
+
+.Upcoming-images-box img {
+    height: 238px;
+    width: 268px;
+    margin: 10px;
+}
+
+#footer{
+    background-color: black;
+    color: white    ;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+   
+    
+}
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+   transform: scale(1.1);
+}
